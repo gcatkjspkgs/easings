@@ -115,3 +115,6 @@ onEvent("player.tick", event => {
 })
 ```
 
+https://github.com/user-attachments/assets/0d42d43b-2131-4899-b176-2cc85137bd99
+
+Every square here slides from top to bottom using an easing function from the list at the top of the README. Goes in the same order left to right (skipping step and polyIn/Out/InOut since they are dynamic and require an argument), so the first square uses linear, then sineIn, then sineOut, etc.
